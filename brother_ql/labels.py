@@ -82,6 +82,7 @@ class Label(object):
 
 ALL_LABELS = (
   Label("12",     ( 12,   0), FormFactor.ENDLESS,       ( 142,    0), ( 106,    0),  29 , feed_margin=35),
+  Label("12+14",  ( 12,   0), FormFactor.ENDLESS,       ( 307,    0), ( 271,    0),  29 , feed_margin=35),
   Label("12+17",  ( 12,   0), FormFactor.ENDLESS,       ( 342,    0), ( 306,    0),  29 , feed_margin=35),
   Label("18",     ( 18,   0), FormFactor.ENDLESS,       ( 256,    0), ( 234,    0), 171 , feed_margin=14),
   Label("29",     ( 29,   0), FormFactor.ENDLESS,       ( 342,    0), ( 306,    0),   6 , feed_margin=35),
